@@ -14,6 +14,8 @@
 		639B09BD290DA58B00641B54 /* statenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B09BC290DA58B00641B54 /* statenessTests.swift */; };
 		639B09C7290DA58B00641B54 /* statenessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B09C6290DA58B00641B54 /* statenessUITests.swift */; };
 		639B09C9290DA58B00641B54 /* statenessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B09C8290DA58B00641B54 /* statenessUITestsLaunchTests.swift */; };
+		639B09D6290E60F600641B54 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B09D5290E60F600641B54 /* GameScore.swift */; };
+		639B09D8290E62A000641B54 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B09D7290E62A000641B54 /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		639B09C2290DA58B00641B54 /* statenessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = statenessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		639B09C6290DA58B00641B54 /* statenessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statenessUITests.swift; sourceTree = "<group>"; };
 		639B09C8290DA58B00641B54 /* statenessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statenessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		639B09D5290E60F600641B54 /* GameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
+		639B09D7290E62A000641B54 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				639B09AE290DA58B00641B54 /* Assets.xcassets */,
 				639B09B0290DA58B00641B54 /* stateness.entitlements */,
 				639B09B1290DA58B00641B54 /* Preview Content */,
+				639B09D5290E60F600641B54 /* GameScore.swift */,
+				639B09D7290E62A000641B54 /* ScoreView.swift */,
 			);
 			path = stateness;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				639B09AD290DA58800641B54 /* ContentView.swift in Sources */,
+				639B09D8290E62A000641B54 /* ScoreView.swift in Sources */,
 				639B09AB290DA58800641B54 /* statenessApp.swift in Sources */,
+				639B09D6290E60F600641B54 /* GameScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
